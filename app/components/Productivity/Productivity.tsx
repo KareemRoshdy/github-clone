@@ -3,6 +3,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import CodeEditor from "./CodeEditor";
 import CodeSpace from "./CodeSpace";
+import CopilotFeature from "./CopilotFeature";
 
 const Productivity = () => {
   const [hovered, setHovered] = useState<boolean>(false);
@@ -72,6 +73,10 @@ const Productivity = () => {
       </div>
       <CodeEditor />
       <CodeSpace />
+
+      <div className="relative z-[1]">
+        <CopilotFeature />
+      </div>
     </div>
   );
 };
