@@ -74,11 +74,11 @@ html {
 }
 .home-campaign-glowing-icon-glow-2 {
   background-color: #ffa28b;
-  filter: blur(20px);
+  filter: blur(15px);
 }
 .home-campaign-glowing-icon-glow-3 {
   background-color: #939aff;
-  filter: blur(20px);
+  filter: blur(15px);
 }
 
 .home-campaign-git-line {
