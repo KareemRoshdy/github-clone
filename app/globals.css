@@ -11,6 +11,7 @@ body {
   background-color: #0c1015;
   color: white;
   font-size: 15px;
+  overflow-x: hidden;
 }
 
 html {
@@ -18,8 +19,11 @@ html {
 }
 
 ::-webkit-scrollbar {
-  width: 0;
-  background: transparent;
+  width: 10px;
+  background-color: #0d1117;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #30363d;
 }
 
 @media (min-width: 1024px) {
