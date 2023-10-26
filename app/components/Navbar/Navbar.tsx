@@ -9,7 +9,6 @@ type Props = {};
 
 const Navbar = (props: Props) => {
   const [showNav, setShowNav] = useState<boolean>(false);
-  console.log(showNav);
 
   return (
     <Container>
