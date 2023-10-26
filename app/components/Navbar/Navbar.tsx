@@ -9,6 +9,7 @@ type Props = {};
 
 const Navbar = (props: Props) => {
   const [showNav, setShowNav] = useState<boolean>(false);
+  console.log(showNav);
 
   return (
     <Container>
@@ -47,9 +48,10 @@ const Navbar = (props: Props) => {
               <div
                 className={`w-[23px] h-[2px] transition duration-150 bg-white mb-1
                 ${showNav && "rotate-45 mb-0 translate-y-[1px]"}
+              
                 `}
                 style={{
-                  margin: `${showNav && "0px"}`,
+                  marginBottom: `${showNav ? "0px" : "3.5px"}`,
                 }}
               ></div>
 
