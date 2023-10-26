@@ -48,6 +48,9 @@ const Navbar = (props: Props) => {
                 className={`w-[23px] h-[2px] transition duration-150 bg-white mb-1
                 ${showNav && "rotate-45 mb-0 translate-y-[1px]"}
                 `}
+                style={{
+                  margin: `${showNav && "0px"}`,
+                }}
               ></div>
 
               <div
